@@ -1,0 +1,163 @@
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 98vh;
+     
+  
+  }
+  .bg-image {
+    background-image: url("../../components/assests/fbackground.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 62.7%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+  }
+  
+  .Rform-container {
+    background-color: white;
+    width: 40%;
+    padding: 80px;
+    margin-left: 63%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  .Rform-container p {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 34%;
+    left: 81.5%;
+    white-space: nowrap;
+    transform: translateX(-50%);
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  .Rform-container h1 {
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 28.5%;
+    left: 81.5%;
+    transform: translateX(-50%);
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  
+  .Rform-container .logo {
+    width: 220px;
+    margin-bottom: 40px;
+    margin-left: 20%;
+  }
+  
+  .form-group {
+    margin-bottom: 8px;
+  }
+  
+  label {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  input {
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+  }
+  
+  button {
+    background-color: #a01717;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 5px;
+  }
+  
+  
+  .link-btn {
+    background: none;
+    color: rgb(83, 79, 79);
+    text-decoration: underline;
+  }
+  /* CSS for mobile devices */
+  @media screen and (max-width: 480px) {
+    .login-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-size: cover;
+      background-position: center;
+    }
+    .bg-image {
+      display: none;
+    }
+  
+    .form-container {
+      background-color: white;
+      width: 80%;
+      padding: 50px; 
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+  
+    .logo {
+      width: 300px;
+      margin-bottom: 50px;
+      margin-left: 1%;
+    }
+    .form-container h1 {
+      font-family: Arial, Helvetica, sans-serif;
+      position: absolute;
+      top: 45%;
+      left: 81%;
+      transform: translate(-50%, -50%);
+      margin-top: 0;
+      margin-bottom: 20px;
+    }
+  
+    .form-container p {
+      font-size: 14px;
+      top: 48%;
+      left: 82%;
+      text-align: center;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    
+    input {
+      font-size: 14px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+  
+    button {
+      font-size: 14px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+  
+    .link-btn {
+      font-size: 14px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    
+    button {
+      margin: auto;
+      display: block;
+    }
+  }
+  
